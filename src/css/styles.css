@@ -2,13 +2,12 @@
   --cor-primaria: #ff4500;
   --cor-secundaria: #ff0000;
   --cor-texto: #000000;
-  --cor-fundo: #E1EFFF;
+  --cor-fundo: #e1efff;
   --cor-branca: #ffffff;
   --cor-borda: #e5e7eb;
-  --cor-status: #2584F0;
+  --cor-status: #2584f0;
   --sombra: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-
 
 body {
   background-color: var(--cor-fundo);
@@ -26,18 +25,126 @@ body {
   margin-bottom: 4rem;
 }
 
+/* 
 
+:root {
+  --cor01: #e1efff;
+  --cor02: #2584f0;
+  --cor03: #f66b1d;
+}
 
+@font-face {
+  font-family: "Baloo";
+  src: url(../fonts/Baloo-Regular.ttf);
+}
 
+@font-face {
+  font-family: "NunitoSans";
+  src: url(../fonts/NunitoSans-Regular.ttf);
+}
 
+body {
+  background-color: var(--cor01);
+  font-family: "NunitoSans", sans-serif;
+  max-width: 1920px;
+  margin: 1rem 2.5rem;
+}
 
+/* Barra de Status
+.status {
+  background-color: var(--cor02);
+  color: #ffffff;
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 0.8rem;
+  border-radius: 8px;
+  margin-bottom: 4rem;
+}
 
+/* Conteudo principal
+.content {
+  width: 60%;
+}
 
+.content h1 {
+  font-size: 2.3rem;
+  font-family: "Baloo";
+  font-weight: 400;
+  margin-bottom: 2.9rem;
+  line-height: 1.2;
+}
 
+.content p {
+  font-size: 1.3rem;
+  margin-bottom: 2.9rem;
+}
 
+/* Botões 
+.container-button {
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
 
+.container-button a {
+  background-color: var(--cor03);
+  color: #ffffff;
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 49%;
+  height: auto;
+  padding: 1rem 3rem;
+  border-radius: 0.5rem;
 
+  transition: background-color 400ms;
+}
 
+.container-button a:hover {
+  background-color: #ff3700;
+}
 
+.button-upload,
+.button-submit {
+  display: flex;
+  gap: 2rem;
+}
 
+/* Efeito de aparecer ao carregar página 
+.status,
+h1,
+p,
+.button-upload,
+.button-submit {
+  animation: appear 1s backwards;
+}
 
+.status {
+  animation-delay: 0.2s;
+}
+
+h1 {
+  animation-delay: 0.5s;
+}
+
+p {
+  animation-delay: 0.8s;
+}
+
+.button-upload {
+  animation-delay: 1.2s;
+}
+
+.button-submit {
+  animation-delay: 1.5s;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+}
+*/
