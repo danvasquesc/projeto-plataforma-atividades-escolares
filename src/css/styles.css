@@ -1,0 +1,43 @@
+:root {
+  --cor-primaria: #ff4500;
+  --cor-secundaria: #ff0000;
+  --cor-texto: #000000;
+  --cor-fundo: #E1EFFF;
+  --cor-branca: #ffffff;
+  --cor-borda: #e5e7eb;
+  --cor-status: #2584F0;
+  --sombra: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+body {
+  background-color: var(--cor-fundo);
+  font-family: "Nunito Sans", sans-serif;
+  line-height: 1.6;
+  color: var(--cor-texto);
+}
+
+.status {
+  background-color: var(--cor-status);
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 0.8rem;
+  border-radius: 8px;
+  margin-bottom: 4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
