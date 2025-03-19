@@ -6,7 +6,7 @@
   --cor-branca: #ffffff;
   --cor-borda: #e5e7eb;
   --cor-status: #2584f0;
-  --sombra: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --sombra: 0 2px 5px rgba(0, 8, 255, 0.173);
 }
 
 body {
@@ -16,135 +16,109 @@ body {
   color: var(--cor-texto);
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
 .status {
   background-color: var(--cor-status);
-  font-size: 0.8rem;
-  text-align: center;
-  padding: 0.8rem;
-  border-radius: 8px;
-  margin-bottom: 4rem;
-}
-
-/* 
-
-:root {
-  --cor01: #e1efff;
-  --cor02: #2584f0;
-  --cor03: #f66b1d;
-}
-
-@font-face {
-  font-family: "Baloo";
-  src: url(../fonts/Baloo-Regular.ttf);
-}
-
-@font-face {
-  font-family: "NunitoSans";
-  src: url(../fonts/NunitoSans-Regular.ttf);
-}
-
-body {
-  background-color: var(--cor01);
-  font-family: "NunitoSans", sans-serif;
-  max-width: 1920px;
-  margin: 1rem 2.5rem;
-}
-
-/* Barra de Status
-.status {
-  background-color: var(--cor02);
-  color: #ffffff;
-  font-size: 0.8rem;
-  text-align: center;
-  padding: 0.8rem;
-  border-radius: 8px;
-  margin-bottom: 4rem;
-}
-
-/* Conteudo principal
-.content {
-  width: 60%;
-}
-
-.content h1 {
-  font-size: 2.3rem;
-  font-family: "Baloo";
-  font-weight: 400;
-  margin-bottom: 2.9rem;
-  line-height: 1.2;
-}
-
-.content p {
-  font-size: 1.3rem;
-  margin-bottom: 2.9rem;
-}
-
-/* Botões 
-.container-button {
-  font-weight: bold;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  border-radius: 8px;
+  margin: 20px;
+  box-shadow: var(--sombra);
+}
+
+.status-conteudo {
+  font-size: 1.3rem;
+  text-align: center;
+  margin: 0.9rem;
+}
+
+section {
+  padding: 4rem 0;
+}
+
+section h2 {
+  text-align: left;
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+.home-conteudo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 9rem;
+}
+
+.home-texto h1 {
+  font-size: 2.8rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.home-texto p {
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-align: justify;
+}
+
+.img-container img {
+  max-width: 400px;
+}
+
+#atividades h2 {
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+
+#atividades h4 {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+
+.atividade {
+  background-color: var(--cor-branca);
+  border: 1px solid var(--cor-borda);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  box-shadow: var(--sombra);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   gap: 1rem;
 }
 
-.container-button a {
-  background-color: var(--cor03);
-  color: #ffffff;
+.atividade h3 {
+  font-size: 1.5rem;
+}
+.atividade p {
   font-size: 1rem;
-  letter-spacing: 0.2rem;
+}
+
+.atividade a {
+  background-color: var(--cor-primaria);
+  display: inline-block;
+  color: var(--cor-branca);
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  white-space: nowrap;
+  text-decoration: none;
+
+  transition: background-color 0.3s ease;
+}
+
+.atividade a:hover {
+  background-color: var(--cor-secundaria);
+}
+
+footer {
   display: flex;
   justify-content: center;
-  text-align: center;
-  width: 49%;
-  height: auto;
-  padding: 1rem 3rem;
-  border-radius: 0.5rem;
-
-  transition: background-color 400ms;
+  margin-top: 2rem;
 }
-
-.container-button a:hover {
-  background-color: #ff3700;
-}
-
-.button-upload,
-.button-submit {
-  display: flex;
-  gap: 2rem;
-}
-
-/* Efeito de aparecer ao carregar página 
-.status,
-h1,
-p,
-.button-upload,
-.button-submit {
-  animation: appear 1s backwards;
-}
-
-.status {
-  animation-delay: 0.2s;
-}
-
-h1 {
-  animation-delay: 0.5s;
-}
-
-p {
-  animation-delay: 0.8s;
-}
-
-.button-upload {
-  animation-delay: 1.2s;
-}
-
-.button-submit {
-  animation-delay: 1.5s;
-}
-
-@keyframes appear {
-  0% {
-    opacity: 0;
-  }
-}
-*/

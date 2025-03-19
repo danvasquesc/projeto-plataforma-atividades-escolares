@@ -1,8 +1,98 @@
 
-/*
+@media (max-width: 768px) {
 
-@media (width < 40rem) {
-  html {
-    font-size: 80%;
+  .status-conteudo {
+    font-size: 0.9rem;
+  }
+
+  .home-conteudo {
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  .home-texto h1 {
+    font-size: 2rem;
+  } 
+
+  .home-texto p {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+
+  .img-container {
+    display: none;
+  }
+
+  #atividades h2 {
+    font-size: 1.5rem;
+  }
+
+  #atividades h4 {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .atividade {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .atividade h3 {
+    font-size: 1.3rem;
+  }
+
+  .atividade p {
+    font-size: 0.9rem;
+  }
+
+  .atividade a {
+    width: 100%;
+    text-align: center;
+  }
+
+  footer p {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .status-conteudo h3 {
+    font-size: 1rem;
+  }
+
+  .home-texto h1 {
+    font-size: 1.8rem;
+  }
+
+  .home-texto p {
+    font-size: 1rem;
+  }
+
+  #atividades h2 {
+    font-size: 1.3rem;
+  }
+
+  #atividades h4 {
+    font-size: 1rem;
+  }
+
+  .atividade h3 {
+    font-size: 1.2rem;
+  }
+
+  .atividade p {
+    font-size: 0.8rem;
+  }
+
+  .atividade a {
+    font-size: 0.9rem;
+  }
+
+  footer p {
+    font-size: 0.8rem;
   }
 }
