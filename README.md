@@ -24,6 +24,9 @@ Esta plataforma facilitou a comunicação com os alunos e responsáveis e centra
 <br>
 
 ## 📌 Visualização do Projeto Atual
+[Link da Demo do projeto](https://danvasquesc.github.io/projeto-plataforma-atividades-escolares)
+<br>
+
 Aqui está um GIF mostrando a nova versão da plataforma em ação:
 
 <img src="src/image/projeto-atual.gif"/>
