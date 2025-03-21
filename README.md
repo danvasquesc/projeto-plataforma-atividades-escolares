@@ -1,19 +1,21 @@
-# :open_file_folder: Plataforma de Gestão de Atividades Escolares. 
+# 📂 Plataforma de Gestão de Atividades Escolares
 <br>
 
 ## 📌 Introdução
-Este projeto foi desenvolvido para resolver um problema recorrente enfrentado por mim, como professor: a desorganização na gestão de atividades dos alunos ao final de cada bimestre. Após buscar soluções online e encontrar plataformas pagas ou excessivamente complicadas para os alunos, com necessidade de cadastro e login e uma interface nada simples, visto que muitos dos meus alunos poossuem pouca familiaridade com a informática, decidi criar uma página web simples, intuitiva e acessível para centralizar todas essas atividades.
+Este projeto é uma evolução de uma plataforma simples que criei há 8 meses para gerenciar atividades escolares. A versão anterior era básica, com funcionalidades limitadas e um design simples. Agora, após meses de estudo e prática, aprimorei a plataforma, tornando-a mais funcional, responsiva e visualmente atraente. Este README documenta a jornada de aprendizado e as melhorias implementadas.
 
 <br>
 
 ## 📌 Objetivo
-O objetivo principal é fornecer uma plataforma centralizada, onde meus alunos possam baixar suas atividades em PDF e enviá-las de maneira fácil e direta para um formulário do Google Forms ou qualquer outro drive que o desenvolvedor utilizar. A página foi projetada para ser intuitiva, com uma interface limpa e poucos elementos, facilitando o uso. Além disso, essa plataforma elimina a necessidade de cadastros ou navegação por múltiplas páginas.  
-Como estou estudando e aprendendo a utilizar as ferramentas do front-end, decidi por criar a página neste formato, podendo, além de colocar em prática o que estou aprendendo, resolver um problema do meu dia a dia, criando uma solução simples, mas que funcione.
+O objetivo principal desta plataforma é fornecer uma solução centralizada e intuitiva para que os alunos possam baixar e enviar atividades escolares de forma fácil e direta. <br>
+Este projeto surgiu quando percebi que, ao final de todo bimestre letivo, eu não conseguia organizar as atividades dos meus alunos. Eu precisava repetir as mesmas informações em todas as salas, enviar as atividades em cada grupo da escola e ainda organizar o envio deles, pois alguns imprimiam, enviavam no WhatsApp ou no e-mail da escola, assim, dificultando a correção. 
+<br>
+
+Esta plataforma facilitou a comunicação com os alunos e responsáveis e centralizou o envio dessas atividades direto para meu e-mail institucional. A nova versão foi projetada para ser mais acessível, com um design moderno e responsivo, que melhora a experiência do usuário.
 
 <br>
 
-## 📌 Ferramentas utilizadas
-
+## 📌 Ferramentas Utilizadas
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![Vscode](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
@@ -21,52 +23,39 @@ Como estou estudando e aprendendo a utilizar as ferramentas do front-end, decidi
 
 <br>
 
-## 📌 Design do Template
-<img src="./src/image/template-canva.png">
+## 📌 Visualização do Projeto Atual
+Aqui está um GIF mostrando a nova versão da plataforma em ação:
 
-O template foi criado na plataforma Canva. A criação deste modelo visual é essencial para assegurar um design moderno, acessível e intuitivo, que facilita a navegação dos alunos. Ele destaca informações importantes, como a disponibilidade de atividades, e organiza as ações principais através de botões coloridos e bem posicionados. O design prioriza a responsividade e a experiência do usuário. Utilizar a criação do design antes de partir para o código, auxilia a entender como cada propriedade funcionará, como estruturar o HTML e organizar fontes e cores.
-<br>
-
-Disponibilizei o acesso ao meus templates desse projeto para consulta. 
-[Clique aqui para acessar!](https://www.canva.com/design/DAGOazLU00I/mreLdF0DA6xNvEqz6jR10A/edit?utm_content=DAGOazLU00I&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+<img src="src/image/projeto-atual.gif"/>
 
 <br>
 
-## 📌 Dificuldades encontradas e adendos importantes
-Com o decorrer da evolução do projeto, passei dificuldades com a integração da imagem dos livros na página, deixando alinhada e em contexto com os conteúdos. Utilizei documentações, tutoriais e vídeos para auxiliar na resolução desse problema. Testei diversas formas diferentes de imagem, alterando suas dimensões e suas propriedades no CSS, e infelizmente sem êxito referente a seguir o design criado e, até pessoalmente, em uma estética que me agradace e fosse responsiva. 
-Devido a isso, optei por não utilizar a imagem, podendo futuramente, com novos conhecimentos, retornar à esse projeto e melhora-lo.
+## 📌 Versão Antiga
+A versão antiga da plataforma foi meu primeiro projeto significativo utilizando HTML e CSS. Na época, meu conhecimento era bastante limitado, e o objetivo principal era criar uma solução funcional, mesmo que básica, para organizar as atividades escolares dos meus alunos:
+
+<img src="src/image/projeto-atividades-antes.png"/>
 
 <br>
 
-## 📌 Como o usuário pode usar 
-  1. Imagine que você é aluno(a) do 2º ano do Ensino Médio. Você acessa a página, via link que disponibilizei em aula, e na barra azul está escrito "Atividade de  Recuperação - envio até 20/09".
-  2. Você irá clicar no botão `PDF 2ºANO`, que baixará automaticamente o arquivo da atividade solicitada, em PDF, no seu dispositivo.
-  3. A atividade solicitada é que você produza um texto sobre "A importância do trabalho na vida social". No PDF constará as orientações para produção da atividade, os textos que usamos em aula e as demais informações necessárias para realização da mesma.
-  4.  Após a realização da sua atividade, com ela salva em seu dispositivo, você irá clicar no botão `ENVIO 2ºANO` e abrirá o formulário do Google Forms (ou qualquer outro drive e afins que achar melhor), para que você submeta sua atividade.
+## 📌 Como o Usuário Pode Usar
+**Acesso à Página:** Os alunos acessam a página via link fornecido em aula.
+
+**Download da Atividade:** Clicam no botão correspondente a sua turma para baixar o PDF da atividade.
+
+**Envio da Atividade:** Após completar a atividade, os alunos clicam no botão de envio para submeter a tarefa direto no meu e-mail institucional, preenchendo somente o nome completo e turma no assunto do e-mail e anexando a atividade.
 
 <br>
 
-## 📌 Como o desenvolvedor pode usar 
-  1. Faça download dos arquivos deste repositório, na sua máquina, clicando no ícone verde `<> Code` e depois em `Download ZIP`.
-  2. No seu Explorador de Arquivos, crie uma pasta principal para o projeto, mova o arquivo zipado para essa pasta e extraia-os com um compactador de zip.
-  3. Acesse o VS Code e abra essa pasta principal no editor.
-  4. Na `class="button-upload"`, altere as tags `<a href="#"` adicionando os links, em PDF, das atividades de cada turma. Se necessário, altere também as turmas.
-  5. Na `class="button-submit"`, altere as tags `<a href="#"` adicionando os links do Google Forms que você criou para recebimento das atividades de cada turma, ou qualquer outro drive que preferir. Se necessário, altere também as turmas.
-  6. Altere a descrição da `class="status"`, adicionando que tipo de atividade está aberta para envio e a data limite.
-  7. Salve o projeto, poste em seu repositório e através do GitHub Pages, divulgue o link da hospedagem para seus alunos. 
-     
+## 📌 Dificuldades Encontradas
+Durante o desenvolvimento, enfrentei várias dificuldades, especialmente com a integração da imagem ao lado do texto. Na versão anterior, não consegui alinhar a imagem de forma satisfatória, o que afetou a estética e a responsividade da página, assim deixei a página sem imagem. Após estudar documentações e tutoriais, aprendi a utilizar propriedades CSS como `flexbox` e `grid` para resolver esses problemas, além de saber onde posicionar a imagem no HTML. Agora, na nova versão, consegui integrar a imagem que eu queria na forma que projetei no Canva. 
 <br>
 
-## 📌 Visualizar o projeto
-A página está hospedada no GitHub Pages, que é um serviço que permite hospedar sites estáticos diretamente a partir de um repositório GitHub. É ideal para criar e publicar sites pessoais, blogs e portfólios.
-
-[Clique aqui para visualizar!](https://danvasquesc.github.io/projeto-envio-de-atividades/)
+Outra dificuldade que tive foi na organização das sessões do site. Eu não sabia como funcionava e como me ajudaria imensamente a construir melhor cada parte, por isso, como não tinha conhecimento, acabei deixando de lado e juntei tudo em uma única parte com título, parágrafo e botões, sem instrução alguma ao usuário. Com os estudos, compreendi que cada parte de um site possui sua semântica apropriada no HTML, que não serve apenas como boa prática, mas de fato para auxiliar na construção do layout. Com isso, separei cada parte de acordo com sua função, tornando a página bem intuitiva. 
 
 <br>
 
 ## 📌 Considerações Finais
-Este projeto foi desenvolvido com foco na simplicidade e acessibilidade, para garantir que todos os alunos, independente de suas habilidades com tecnologia, possam utilizar a plataforma de maneira eficaz. Documentar este projeto é um passo importante para que outros professores ou desenvolvedores possam entender sua utilidade, adaptar a solução para suas próprias necessidades, e também para que eu possa manter e evoluir esse projeto no futuro.
-Aceito contribuições!
+Este projeto representa uma jornada de aprendizado e melhoria contínua. A evolução da plataforma mostra como o estudo e a prática podem transformar uma ideia simples em uma solução eficiente. Estou aberto a contribuições e sugestões para continuar melhorando esta plataforma.
 
 ---
 
