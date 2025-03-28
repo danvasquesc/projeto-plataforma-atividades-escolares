@@ -51,10 +51,10 @@ A versão antiga da plataforma foi meu primeiro projeto significativo utilizando
 <br>
 
 ## 📌 Dificuldades Encontradas
-Durante o desenvolvimento, enfrentei várias dificuldades, especialmente com a integração da imagem ao lado do texto. Na versão anterior, não consegui alinhar a imagem de forma satisfatória, o que afetou a estética e a responsividade da página, assim deixei a página sem imagem. Após estudar documentações e tutoriais, aprendi a utilizar propriedades CSS como `flexbox` e `grid` para resolver esses problemas, além de saber onde posicionar a imagem no HTML. Agora, na nova versão, consegui integrar a imagem que eu queria na forma que projetei no Canva. 
+Durante o desenvolvimento, enfrentei várias dificuldades, especialmente com a integração da imagem ao lado do texto. Na versão anterior, não consegui alinhar a imagem de forma satisfatória, o que afetou a estética e a responsividade da página. Após estudar documentações e tutoriais, aprendi a utilizar propriedades CSS como `flexbox` e `grid` para resolver esses problemas, além de saber onde posicionar a imagem no HTML. Agora, na nova versão, consegui integrar a imagem que eu queria na forma que projetei no Canva. 
 <br>
 
-Outra dificuldade que tive foi na organização das sessões do site. Eu não sabia como funcionava e como me ajudaria imensamente a construir melhor cada parte, por isso, como não tinha conhecimento, acabei deixando de lado e juntei tudo em uma única parte com título, parágrafo e botões, sem instrução alguma ao usuário. Com os estudos, compreendi que cada parte de um site possui sua semântica apropriada no HTML, que não serve apenas como boa prática, mas de fato para auxiliar na construção do layout. Com isso, separei cada parte de acordo com sua função, tornando a página bem intuitiva. 
+Outra dificuldade que tive foi na organização das sessões do site. Eu não sabia como funcionava e como me ajudaria imensamente a construir melhor cada parte, por isso, como não tinha conhecimento, juntei tudo em uma única parte com título, parágrafo e botões, sem instrução alguma ao usuário. Com os estudos, compreendi que cada parte de um site possui sua semântica apropriada no HTML, que não serve apenas como boa prática, mas de fato para auxiliar na construção do layout. Com isso, separei cada parte de acordo com sua função, tornando a página bem intuitiva. 
 
 <br>
 
